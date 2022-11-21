@@ -3,22 +3,32 @@
 /* General styles */
 
 body {
-    background-color: blueviolet;
+    background-image: linear-gradient(180deg, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     font-size: 12px;
-    font-family: 'Kumbh Sans', sans-serif;;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 
 .container {
     background-color: white;
+    width: 75%;
 }
 
 h1 {
+    color: hsl(237, 12%, 33%);
+    text-align: center;
+}
 
+p {
+    color: hsl(240, 6%, 50%)
 }
 
 /* image styles */
 .image img {
-    width: 25%;
+    width: 40%;
+    text-align: center;
 }
 
 
