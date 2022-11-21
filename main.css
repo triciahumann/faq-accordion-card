@@ -1,0 +1,28 @@
+
+
+/* General styles */
+
+body {
+    background-color: blueviolet;
+    font-size: 12px;
+}
+
+.container {
+    background-color: white;
+}
+
+h1 {
+
+}
+
+/* image styles */
+.image img {
+    width: 25%;
+}
+
+
+
+/* footer */
+.attribution {
+    color: white;
+}
