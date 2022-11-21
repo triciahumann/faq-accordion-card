@@ -47,7 +47,10 @@ p {
 }
 .image img {
     width: 80%;
+    position: relative;
 }
+
+
 
 /* faq accordion styles */
 .accordion-item {
