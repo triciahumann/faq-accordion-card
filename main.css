@@ -54,8 +54,18 @@ p {
     border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
+.question {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
 .question-title:hover {
     color: hsl(14, 88%, 65%);
+}
+
+.question img {
+    align-self: center;
 }
 
 
