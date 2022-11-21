@@ -3,17 +3,20 @@
 /* General styles */
 
 body {
-    background-image: linear-gradient(180deg, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     font-size: 12px;
     font-family: 'Kumbh Sans', sans-serif;
     display: flex;
     justify-content: center;
+    align-content: center;
     flex-flow: row wrap;
+    margin: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .container {
     background-color: white;
-    width: 75%;
 }
 
 h1 {
@@ -32,6 +35,8 @@ p {
 .image img {
     width: 40%;
 }
+
+/* faq accordion styles */
 
 
 
