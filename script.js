@@ -5,6 +5,6 @@ const answer = document.querySelector(".answer");
 
 // When the question title is clicked
 questionTitle.addEventListener("click", function () {
-    e.preventDefault();
-    answer.ATTRIBUTE_NODE.classList.add("show");
+    console.log("hello");
+    answer.classList.remove("hide")
 })

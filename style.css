@@ -34,11 +34,11 @@ h3 {
 }
 
 p {
-   display: none;
+   color: hsl(237, 12%, 33%)
 }
 
-.show {
-    color: hsl(240, 6%, 50%);
+.hide {
+    display: none;
 }
 
 /* image styles */
@@ -47,10 +47,7 @@ p {
 }
 .image img {
     width: 80%;
-    position: relative;
 }
-
-
 
 /* faq accordion styles */
 .accordion-item {
