@@ -1,6 +1,7 @@
-
-
 /* General styles */
+* { 
+    box-sizing: border-box;
+}
 
 body {
     background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
@@ -33,7 +34,11 @@ h3 {
 }
 
 p {
-    color: hsl(240, 6%, 50%)
+   display: none;
+}
+
+.show {
+    color: hsl(240, 6%, 50%);
 }
 
 /* image styles */
@@ -47,6 +52,10 @@ p {
 /* faq accordion styles */
 .accordion-item {
     border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+.question-title:hover {
+    color: hsl(14, 88%, 65%);
 }
 
 
