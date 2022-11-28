@@ -19,10 +19,10 @@ body {
 .container {
     background-color: white;
     box-sizing: border-box;
-    margin: 25px;
+    margin-top: 150px;
     padding: 20px;
     border-radius: 20px;
-    position: relative;
+    /* position: relative; */
 }
 
 h1 {
@@ -55,14 +55,14 @@ p {
 }
 
 
-/* image styles */
+/* image styles - .image is the parent div to the images*/
 .image {
     text-align: center;
-    /* position: absolute; */
+    position: relative;
 }
 .image img {
-    /* position: absolute; */
-    width: 80%;
+    position: absolute;
+    top: -130px
 }
 
 /* faq accordion styles */
