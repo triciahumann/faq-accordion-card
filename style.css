@@ -65,7 +65,11 @@ p {
     top: -130px
 }
 
+
 /* faq accordion styles */
+.accordion-wrapper {
+    padding: 20px 0;
+}
 .accordion-item {
     border-bottom: 1px solid hsl(240, 5%, 91%);
 }
